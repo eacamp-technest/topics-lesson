@@ -10,6 +10,12 @@
   gap: 20px;
 }
 
+.test {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .child {
   background-color: blue;
   height: 80px;
