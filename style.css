@@ -1,0 +1,23 @@
+.container {
+  border: 5px solid red;
+  height: 500px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.child {
+  background-color: blue;
+  height: 80px;
+  width: 80px;
+  border: 1px solid red;
+}
+
+p {
+  font-size: 20px;
+  color: #fff;
+}
