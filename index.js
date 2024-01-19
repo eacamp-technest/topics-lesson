@@ -67,8 +67,33 @@ const car = {
 }
 
 
-const arr = [car, car, car, car, car];
 
-const xx = arr[1]
-console.log(xx.name);
+
+
+
+const { name, ...rest } = obj
+
+
+const dbUsers = [
+    {
+        isAdmin: true,
+        name: 'admin'
+    },
+    {
+        isUser: true,
+        name: 'user 1'
+    },
+    {
+        isUser: true,
+        name: 'user 2'
+    }
+];
+
+
+const [admin, ...users] = dbUsers;
+
+
+console.log('admin: ', admin);
+console.log('users: ', users[0]);
+// var i = arr.length;
 
