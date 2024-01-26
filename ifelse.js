@@ -3,6 +3,8 @@ const a = false;
 const y = 4;
 
 
+
+
 // if (y - x !== 2 && !a || x + y === 6) {
 //     console.log('is true')
 // } else {
