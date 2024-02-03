@@ -82,18 +82,56 @@
 //     console.log('x function')
 // }
 
-const x = (params) => console.log('-=-=---')
+// const x = (params) => console.log('-=-=---')
 
-function showFn(cb) {
-    console.log(cb);
-    cb();
-}
+// function showFn(cb) {
+//     console.log(cb);
+//     cb();
+// }
 
-showFn(x)
-// const a = 2 ? 'it is 2' : 'is not 2';
-
-
+// showFn(x)
+// // const a = 2 ? 'it is 2' : 'is not 2';
 
 // s();
 
 
+// const test = (x) => {
+//     if (x <= 1) {
+//         return 1;
+//     }
+
+//     return x * test(x - 1);
+// }
+
+// const factorial = n => n === 0 ? 1 : n * factorial(n - 1);
+
+// console.log(test(5))
+
+// const name = 'Xeyyam';
+// const surname = 'Karimov';
+
+// const fullname = name + " " + surname
+
+
+// const test = (name, surname = 'Karimov') => {
+//     return `namske${}`
+// }
+
+const surname = 'Karimov';
+const age = 40;
+
+const name = `name : ${age < 30 ? 'young' : 'adult'}`;
+const name2 = "name : " + age < 30 ? 'young' : 'adult';
+
+const baseUrl = 'https://fb.com'
+const usersUrl = 'users';
+
+const sendReq = (id) => `${baseUrl}/${usersUrl}/${id}`
+
+const str2 = 'oiasdjaoisdjoasjdoasjodjaisod \n aoisdjaios'
+const str = `xeryyam
+${name2}      
+karimov
+`
+
+console.log(str)
