@@ -98,7 +98,7 @@ const numbers = {
 // console.log('factorial func:', numbers.factorial(5))
 
 
-const result = numbers.mix(10, numbers.sum, numbers.factorial)
+// const result = numbers.mix(10, numbers.sum, numbers.factorial)
 
 // 1 ->   mix
 // 2 ->  mult
@@ -109,3 +109,52 @@ const result = numbers.mix(10, numbers.sum, numbers.factorial)
 
 
 // console.log(numbers.factorial(5))
+
+const arr = ['xeyyam', 4, 2, {}, [], false, 56, true, undefined, 3];
+
+const evolute = (arr) => {
+
+    let newArr = [];
+
+    for (let index = 0; index < arr.length; index++) {
+
+        if (typeof arr[index] === 'number') {
+            newArr = [...newArr, arr[index]]
+        }
+
+    }
+
+    console.log(newArr);
+    return newArr;
+}
+
+
+// evolute(arr);
+
+
+
+// const mix = [1, 4, 'ds', 'axsa', false, 35, 1, undefined];
+
+
+
+// function add100(parm) {
+//     if (typeof parm !== 'number') {
+//         return 'x';
+//     }
+//     return parm + 100;
+// }
+
+
+
+// console.log(nums.map(add100));
+
+// const result = nums.map(function (item) {
+//     return item + 100
+// })
+
+// console.log(result)
+
+
+
+
+
