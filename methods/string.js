@@ -126,11 +126,12 @@ const surname = 'Karimov';
 // sconsole.log(str.slice(-9, -5));
 // Expected output: "lazy"
 
-const str = 'cHe quick bRWwB Sdx FuSps over the lazy dog.';
+let str = 'cHe quick bRWwB Sdx FuSps over the lazy dog.';
+
+str = 12;
+
+// const xx = (lefter) =>
+//     lefter.charAt(0).toUpperCase() + lefter.slice(1).toLowerCase();
 
 
-const xx = (lefter) =>
-    lefter.charAt(0).toUpperCase() + lefter.slice(1).toLowerCase();
-
-
-console.log(xx(str))
+// console.log(xx(str))
