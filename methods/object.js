@@ -105,13 +105,6 @@
 // console.log(userArr)
 // console.log(userName)
 
-
-let user = {
-    name: 'xeyyam',
-    age: 34,
-    phone: '+90 xxxxx'
-}
-
 // Object.defineProperties(user, {
 //     property1: {
 //         value: 42,
@@ -120,9 +113,9 @@ let user = {
 //     property2: {},
 // });
 
-console.log(Object.getOwnPropertyNames(user))
-console.log(Object.keys(user))
-console.log(Object.values(user))
+// console.log(Object.getOwnPropertyNames(user))
+// console.log(Object.keys(user))
+// console.log(Object.values(user))
 
 // Object.freeze(user);
 
@@ -142,3 +135,52 @@ console.log(Object.values(user))
 //     c: 3,
 // };
 
+
+
+
+// const fr = ['alma', 'armud', 'nar'];
+// console.log(!!fr[1])
+// console.log(!!user['age'])
+// if (user['count']) {
+//     console.log('+')
+// } else {
+//     console.log('-')
+// }
+
+
+// if (fr[5]) {
+//     console.log('have')
+// } else {
+//     console.log('no');
+// }
+// console.log(Object.hasOwn(user, 'name'))
+
+// user['aze'] = 'asdasd'
+// Object.seal(user);
+
+// console.log('is frozen: ', Object.isFrozen(user))
+// console.log('isSealed: ', Object.isSealed(user))
+
+
+
+// console.log(Object.isFrozen(user))
+// console.log(x);
+
+// console.log(Object.keys(user))
+
+// console.log(Object.values('asdasd'))
+
+const user = {
+    name: 'xeyyam',
+    age: 34,
+    phone: '+90 xxxxx'
+}
+
+
+// const user2 = { ...user }
+
+// const x = [];
+// const y = []
+
+// console.log(user === user2)
+console.log(0 / 0);
