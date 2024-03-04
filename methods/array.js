@@ -39,36 +39,15 @@
 //     // );
 // };
 
-const items = [
-    {
-        name: 'blue - x',
-        price: 21,
-        size: 'm'
-    },
-    {
-        name: 'blue - z',
-        price: 10,
-        size: 'l'
-    },
-    {
-        name: 'blue - z',
-        price: 19,
-        size: 'xl'
-    },
-    {
-        name: 'green - m',
-        price: 30,
-        size: 's'
-    }
-]
+
 
 // const finded = items.find((item) => item.name === 'blue - z');
 
 // console.log(finded)
 
-const array1 = [50, 44, [3, 2], [[0]]];
+// const array1 = [50, 44, [3, 2], [[0]]];
 
-console.log(array1.flat(Infinity))
+// console.log(array1.flat(Infinity))
 
 // array1.map(num => {
 //     if (Array.isArray(num)) {
@@ -89,3 +68,73 @@ console.log(array1.flat(Infinity))
 // console.log(found);
 
 
+
+// const obj = {
+//     name: 'x',
+//     surname: 'y'
+// }
+
+// const nested = Object.entries(obj);
+
+// const x = nested.flatMap();
+// console.log(x)
+
+// const arr = [];
+
+
+// console.log(Array.isArray(arr))
+
+
+// console.log('1: ', arr.indexOf('xeyyam')) // 0
+// console.log(arr.reverse())
+// console.log('2: ', arr.indexOf('xeyyam')) // 2
+
+// isArray()
+// lastIndexOf()
+// flatMap()
+// reverse()
+
+
+// const array1 = [1, 2, 'xeyyam', 3, 'zaur', { name: 'sd' }];
+
+// console.log(array1.includes('xeyyam'));
+
+// const x = 'niyametdmin';
+// const splited = x.split("m");
+// console.log('splited: ', splited)
+// const a = splited.join()
+// console.log(a)
+
+// const arr = ['good', 'yes', 'no']
+
+// function firstArticleUpper(article) {
+//     // article.map(item => console.log(item.slice(1).join("")))
+// }
+
+
+// console.log(firstArticleUpper(arr))
+// console.log(firstArticleUpper(arr))
+
+// const arr = [2, 3, 5, 6, '33'];
+// arr.pop();
+
+// const x = arr.shift()
+// arr.unshift('994')
+// console.log(x)
+// console.log(arr)
+// const count = arr.pop()
+// // arr.push('hikmet')
+// console.log(count);
+
+// const x = arr.every(num => typeof num === 'number');
+// const y = arr.some(num => typeof num === 'number');
+
+// console.log(x)
+// console.log(y)
+
+
+
+const months = ['Jan', 'March', 'April', 'June', 'Dec'];
+months.splice(1, 0, 'Xeyyam');
+
+console.log(months)
