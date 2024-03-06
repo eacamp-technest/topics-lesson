@@ -134,7 +134,52 @@
 
 
 
-const months = ['Jan', 'March', 'April', 'June', 'Dec'];
-months.splice(1, 0, 'Xeyyam');
+// console.log(username.slice(1))
 
-console.log(months)
+// const months = ['Jan', 'March', 'April', 'June', 'Dec', ''];
+
+// months.slice(1);
+
+// console.log(months) 
+// const username = 'akif';
+
+// console.log(username.split(""))
+// console.log(Array.from(username))
+// console.log(Array.from('xfs'));
+// Expected output: Array ["f", "o", "o"]
+
+
+
+// const obj = {
+//     "name": 'Xeyyam',
+//     "surname": 'Karimvo',
+// }
+
+// const user = {
+//     "name": 'Xeyyam',
+//     "surname": 'Karimvo',
+//     hoobies: [
+//         'asd',
+//         'adasd', 'asd', 'asd'
+//     ]
+// }
+
+// const s = JSON.stringify(user);
+
+// const fromAPI = JSON.parse(s);
+
+// console.log(fromAPI.name)
+
+// const calc = (x, y, o) => {
+//     if (o === '+') {
+//         return x + y
+//     }
+// }
+
+// calc(2, 5, '+')
+// const xeyyam = 'var x = 5; const y=2; console.log(x + y)'
+// eval(xeyyam)
+
+// const res = require('./file.json');
+
+// console.log(res)
